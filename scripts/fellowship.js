@@ -112,7 +112,7 @@ function forgeTheFellowship() {
 
  
     $('#the-fellowship').append($(fellowshipMembers).eq(i));
-    // alert($(fellowshipMembers.eq(i)).text() + " have joined your party"); 
+    alert($(fellowshipMembers.eq(i)).text() + " have joined your party"); 
   }
 
 }
@@ -123,32 +123,63 @@ function theBalrog(){
   // your answers here
 
   $(fellowshipMembers).eq(0).html("Gandalf the White");
+  $(fellowshipMembers).eq(0).css({"border-color": "grey",
+                                  "border-width": "1px",
+                                  "border-style": "solid",
+                                    "background-color": "white"});
+
+
 
 
 }
 
 theBalrog();
 
+var boromir = $(fellowshipMembers).eq(4);
+
 function hornOfGondor() {
   // your answers here
+
+  alert("the horn of gondor has been blown, Boromir's been killed by the Uruk-hai"); 
+
+    boromir.remove();
 }
 
 hornOfGondor();
 
+var sam = $(fellowshipMembers).eq(5);
+frodo = $(fellowshipMembers).eq(4);
+
+
 function itsDangerousToGoAlone() {
   // your answers here
+  mordor.append($(fellowshipMembers).eq(5));
+  mordor.append($(fellowshipMembers).eq(6));
+  mordor.append($("<div></div>").attr('id', 'mount-doom'));
 }
 
 itsDangerousToGoAlone();
 
 function weWantsIt() {
   // your answers here
+  mordor.append($("<div></div>").attr('id', 'gollum'));
+  $('#gollum').append($('#the-ring'));
+  $('#gollum').append($('#mount-doom'));
 }
 
 weWantsIt();
 
 function thereAndBackAgain(){
   // your answers here
+  $('#gollum').remove();
+
+  for(var i = 5; i < 9; i ++){
+
+    theShire.append($(fellowshipMembers).eq(i));
+  }
+
+
+
 }
 
 thereAndBackAgain();

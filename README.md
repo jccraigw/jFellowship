@@ -1,4 +1,4 @@
-## Trip To MorDOMr using jQuery
+## Trip To MorDOMr using jQuery and automagical JavaScript things
 
 #### Learning Objectives
 

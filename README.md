@@ -1,4 +1,4 @@
-## Trip To MorDOMr using jQuery
+## Trip To MorDOMr using jQuery and automagical JavaScript things
 
 #### Learning Objectives
 
@@ -10,6 +10,29 @@ going on an adventure.
 
 Your goal is to use jQuery to complete this adventure! Instead of using traditional
 Javascript like the weekend's prompt, you should use jQuery selectors to manipulate the DOM. This second pass on Fellowship should give you a greater appreciation of the ease and simplicity of jQuery compared to standard Javascript.
+
+asdfasdfasdf
+
+
+
+asdfasdfasdf
+
+
+
+
+asdfasdfasdfasdf
+
+
+
+
+
+
+asdfasdfasdfasdf
+
+
+
+asdfasdfasdfasdf
+
 
 
 #### Directions
@@ -111,6 +134,15 @@ var hornOfGondor = function () {
    // Remove `Boromir` from the Fellowship
 };
 ```
+function testFunc() {
+   console.log("test hello");
+   console.log("test hello");
+   console.log("test hello");
+   console.log("test hello");
+   console.log("test hello");
+   // would love feedback on this func
+   // 
+}
 
 #### Part 10
 ```js
